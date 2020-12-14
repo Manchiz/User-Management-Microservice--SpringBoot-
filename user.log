@@ -183,3 +183,5 @@
 2020-12-14 22:07:16.161  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
 2020-12-14 22:12:16.164  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
 2020-12-14 22:17:16.167  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 22:22:16.177  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 22:27:16.189  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
