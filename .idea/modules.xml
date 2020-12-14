@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/HRMManagementAPIConfigServer/HRMManagementAPIConfigServer.iml" filepath="$PROJECT_DIR$/HRMManagementAPIConfigServer/HRMManagementAPIConfigServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HRMManagementApiGateway/HRMManagementApiGateway.iml" filepath="$PROJECT_DIR$/HRMManagementApiGateway/HRMManagementApiGateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HRMManagementUser/HRMManagementUser.iml" filepath="$PROJECT_DIR$/HRMManagementUser/HRMManagementUser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HRMMangementAccountManagement/HRMMangementAccountManagement.iml" filepath="$PROJECT_DIR$/HRMMangementAccountManagement/HRMMangementAccountManagement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HRMMangementUserApiDiscoveryService/HRMMangementUserApiDiscoveryService.iml" filepath="$PROJECT_DIR$/HRMMangementUserApiDiscoveryService/HRMMangementUserApiDiscoveryService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PhotoAppApiAlbums-master/PhotoAppApiAlbums.iml" filepath="$PROJECT_DIR$/PhotoAppApiAlbums-master/PhotoAppApiAlbums.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Pro_6.iml" filepath="$PROJECT_DIR$/.idea/Pro_6.iml" />
+    </modules>
+  </component>
+</project>

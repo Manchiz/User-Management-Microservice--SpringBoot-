@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="HRMManagementUser" />
+        <module name="HRMMangementUserApiDiscoveryService" />
+        <module name="HRMMangementAccountManagement" />
+        <module name="PhotoAppApiAlbums" />
+        <module name="HRMManagementApiGateway" />
+        <module name="HRMManagementAPIConfigServer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="HRMManagementAPIConfigServer" target="11" />
+      <module name="HRMManagementApiGateway" target="14" />
+      <module name="HRMManagementUser" target="14" />
+      <module name="HRMMangementAccountManagement" target="14" />
+      <module name="HRMMangementUserApiDiscoveryService" target="14" />
+      <module name="PhotoAppApiAlbums" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="HRMManagementAPIConfigServer" options="-parameters" />
+      <module name="HRMManagementApiGateway" options="-parameters" />
+      <module name="HRMManagementUser" options="-parameters" />
+      <module name="HRMMangementAccountManagement" options="-parameters" />
+      <module name="HRMMangementUserApiDiscoveryService" options="-parameters" />
+      <module name="PhotoAppApiAlbums" options="-parameters" />
+    </option>
+  </component>
+</project>

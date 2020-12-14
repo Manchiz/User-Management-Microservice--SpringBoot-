@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/HRMManagementAPIConfigServer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HRMManagementAPIConfigServer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HRMManagementApiGateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HRMManagementApiGateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HRMManagementUser/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HRMManagementUser/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HRMMangementAccountManagement/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HRMMangementAccountManagement/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HRMMangementUserApiDiscoveryService/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/HRMMangementUserApiDiscoveryService/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PhotoAppApiAlbums-master/src/main/java" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,183 @@
+2020-12-14 15:32:16.621  INFO [user-ws,,,] 12376 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8012
+2020-12-14 15:32:16.886  INFO [user-ws,,,] 12376 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=user-ws, profiles=[default], label=null, version=null, state=null
+2020-12-14 15:32:16.888  INFO [user-ws,,,] 12376 --- [restartedMain] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-file:///C:/Users/Manchee/Desktop/Spring-MicroServicec/Pro_6/HRMManagementConfiguration/dev/user-ws.properties'}, BootstrapPropertySource {name='bootstrapProperties-file:///C:/Users/Manchee/Desktop/Spring-MicroServicec/Pro_6/HRMManagementConfiguration/dev/application.properties'}]
+2020-12-14 15:32:16.946  INFO [user-ws,,,] 12376 --- [restartedMain] c.Q.H.HrmManagementUserApplication       : No active profile set, falling back to default profiles: default
+2020-12-14 15:32:18.801  WARN [user-ws,,,] 12376 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-env' contains invalid characters, please migrate to a valid format.
+2020-12-14 15:32:19.194  INFO [user-ws,,,] 12376 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-12-14 15:32:19.332  INFO [user-ws,,,] 12376 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 127ms. Found 1 JPA repository interfaces.
+2020-12-14 15:32:19.532  WARN [user-ws,,,] 12376 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'bus-refresh' contains invalid characters, please migrate to a valid format.
+2020-12-14 15:32:19.749  WARN [user-ws,,,] 12376 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-12-14 15:32:19.978  WARN [user-ws,,,] 12376 --- [restartedMain] o.s.boot.actuate.endpoint.EndpointId     : Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2020-12-14 15:32:20.414  INFO [user-ws,,,] 12376 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=3fe2410c-ecf4-396b-975e-5f3a59005880
+2020-12-14 15:32:20.473  INFO [user-ws,,,] 12376 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'errorChannel' has been explicitly defined. Therefore, a default PublishSubscribeChannel will be created.
+2020-12-14 15:32:20.489  INFO [user-ws,,,] 12376 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'taskScheduler' has been explicitly defined. Therefore, a default ThreadPoolTaskScheduler will be created.
+2020-12-14 15:32:20.520  INFO [user-ws,,,] 12376 --- [restartedMain] faultConfiguringBeanFactoryPostProcessor : No bean named 'integrationHeaderChannelRegistry' has been explicitly defined. Therefore, a default DefaultHeaderChannelRegistry will be created.
+2020-12-14 15:32:21.074  INFO [user-ws,,,] 12376 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationChannelResolver' of type [org.springframework.integration.support.channel.BeanFactoryChannelResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-14 15:32:21.084  INFO [user-ws,,,] 12376 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'integrationDisposableAutoCreatedBeans' of type [org.springframework.integration.config.annotation.Disposables] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-14 15:32:21.146  INFO [user-ws,,,] 12376 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.integration.config.IntegrationManagementConfiguration' of type [org.springframework.integration.config.IntegrationManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-14 15:32:21.170  INFO [user-ws,,,] 12376 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration' of type [org.springframework.boot.autoconfigure.integration.IntegrationAutoConfiguration$IntegrationJmxConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-14 15:32:21.186  INFO [user-ws,,,] 12376 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration' of type [org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-14 15:32:21.206  INFO [user-ws,,,] 12376 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'mbeanServer' of type [com.sun.jmx.mbeanserver.JmxMBeanServer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-12-14 15:32:22.344  INFO [user-ws,,,] 12376 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2020-12-14 15:32:22.355  INFO [user-ws,,,] 12376 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-14 15:32:22.356  INFO [user-ws,,,] 12376 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-14 15:32:22.643  INFO [user-ws,,,] 12376 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-14 15:32:22.643  INFO [user-ws,,,] 12376 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5660 ms
+2020-12-14 15:32:22.899  WARN [user-ws,,,] 12376 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-12-14 15:32:22.900  INFO [user-ws,,,] 12376 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-12-14 15:32:22.916  INFO [user-ws,,,] 12376 --- [restartedMain] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@258ad4cf
+2020-12-14 15:32:23.064  INFO [user-ws,,,] 12376 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-12-14 15:32:23.513  INFO [user-ws,,,] 12376 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-12-14 15:32:23.520  INFO [user-ws,,,] 12376 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/hrmmanagementdb?serverTimezone=UTC'
+2020-12-14 15:32:25.072  WARN [user-ws,,,] 12376 --- [restartedMain] o.s.c.s.zipkin2.ZipkinAutoConfiguration  : Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connect timed out; nested exception is java.net.SocketTimeoutException: Connect timed out}]
+2020-12-14 15:32:27.673  INFO [user-ws,,,] 12376 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-12-14 15:32:28.374  INFO [user-ws,,,] 12376 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-14 15:32:28.474  INFO [user-ws,,,] 12376 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-12-14 15:32:28.570  INFO [user-ws,,,] 12376 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-14 15:32:28.734  WARN [user-ws,,,] 12376 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-12-14 15:32:28.785  INFO [user-ws,,,] 12376 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-14 15:32:28.962  WARN [user-ws,,,] 12376 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2020-12-14 15:32:28.994  INFO [user-ws,,,] 12376 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-12-14 15:32:29.001  INFO [user-ws,,,] 12376 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-12-14 15:32:29.933  INFO [user-ws,,,] 12376 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-14 15:32:29.947  INFO [user-ws,,,] 12376 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-12-14 15:32:30.337  INFO [user-ws,,,] 12376 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-12-14 15:32:30.899  INFO [user-ws,,,] 12376 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2ee0cb55, org.springframework.security.web.context.SecurityContextPersistenceFilter@42b92e80, org.springframework.security.web.header.HeaderWriterFilter@447673d5, org.springframework.security.web.authentication.logout.LogoutFilter@78eb4f8, com.Qouro.HRMManagementUser.Security.AuthenticationFilter@56ed36b9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@30ecdc2d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@30f65e93, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7ae0793f, org.springframework.security.web.session.SessionManagementFilter@2116df4f, org.springframework.security.web.access.ExceptionTranslationFilter@1121276d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@63d4b830]
+2020-12-14 15:32:30.985  WARN [user-ws,,,] 12376 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2020-12-14 15:32:30.985  INFO [user-ws,,,] 12376 --- [restartedMain] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-12-14 15:32:32.199  INFO [user-ws,,,] 12376 --- [restartedMain] onConfiguration$FunctionBindingRegistrar : Functional binding is disabled due to the presense of @EnableBinding annotation in your configuration
+2020-12-14 15:32:32.921  INFO [user-ws,,,] 12376 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses Jersey
+2020-12-14 15:32:33.302  WARN [user-ws,,,] 12376 --- [restartedMain] ockingLoadBalancerClientRibbonWarnLogger : You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-12-14 15:32:33.943  INFO [user-ws,,,] 12376 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2020-12-14 15:32:34.261  INFO [user-ws,,,] 12376 --- [restartedMain] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'application-1.springCloudBusInput' has 1 subscriber(s).
+2020-12-14 15:32:34.451  INFO [user-ws,,,] 12376 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel errorChannel
+2020-12-14 15:32:34.579  INFO [user-ws,,,] 12376 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel nullChannel
+2020-12-14 15:32:34.606  INFO [user-ws,,,] 12376 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBusInput
+2020-12-14 15:32:34.655  INFO [user-ws,,,] 12376 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBusOutput
+2020-12-14 15:32:34.679  INFO [user-ws,,,] 12376 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageHandler errorLogger
+2020-12-14 15:32:34.710  INFO [user-ws,,,] 12376 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageHandler org.springframework.cloud.stream.binding.StreamListenerMessageHandler@7ca1f4af
+2020-12-14 15:32:34.824  INFO [user-ws,,,] 12376 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : Adding {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2020-12-14 15:32:34.825  INFO [user-ws,,,] 12376 --- [restartedMain] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 1 subscriber(s).
+2020-12-14 15:32:34.825  INFO [user-ws,,,] 12376 --- [restartedMain] o.s.i.endpoint.EventDrivenConsumer       : started bean '_org.springframework.integration.errorLogger'
+2020-12-14 15:32:34.828  INFO [user-ws,,,] 12376 --- [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Creating binder: rabbit
+2020-12-14 15:32:35.155  INFO [user-ws,,,] 12376 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8012
+2020-12-14 15:32:35.185  INFO [user-ws,,,] 12376 --- [restartedMain] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=user-ws, profiles=[default], label=null, version=null, state=null
+2020-12-14 15:32:35.186  INFO [user-ws,,,] 12376 --- [restartedMain] b.c.PropertySourceBootstrapConfiguration : Located property source: [BootstrapPropertySource {name='bootstrapProperties-file:///C:/Users/Manchee/Desktop/Spring-MicroServicec/Pro_6/HRMManagementConfiguration/dev/user-ws.properties'}, BootstrapPropertySource {name='bootstrapProperties-file:///C:/Users/Manchee/Desktop/Spring-MicroServicec/Pro_6/HRMManagementConfiguration/dev/application.properties'}]
+2020-12-14 15:32:35.316  INFO [user-ws,,,] 12376 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-12-14 15:32:35.317  INFO [user-ws,,,] 12376 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-12-14 15:32:35.324  INFO [user-ws,,,] 12376 --- [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Caching the binder: rabbit
+2020-12-14 15:32:35.324  INFO [user-ws,,,] 12376 --- [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Retrieving cached binder: rabbit
+2020-12-14 15:32:35.479  INFO [user-ws,,,] 12376 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2020-12-14 15:32:35.540  INFO [user-ws,,,] 12376 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#33a5a6bd:0/SimpleConnection@3ed1287 [delegate=amqp://Manchi@127.0.0.1:5672/, localPort= 59999]
+2020-12-14 15:32:35.586  INFO [user-ws,,,] 12376 --- [restartedMain] o.s.c.s.m.DirectWithAttributesChannel    : Channel 'application-1.springCloudBusOutput' has 1 subscriber(s).
+2020-12-14 15:32:35.599  INFO [user-ws,,,] 12376 --- [restartedMain] o.s.c.s.binder.DefaultBinderFactory      : Retrieving cached binder: rabbit
+2020-12-14 15:32:35.682  INFO [user-ws,,,] 12376 --- [restartedMain] c.s.b.r.p.RabbitExchangeQueueProvisioner : declaring queue for inbound: springCloudBus.anonymous.IRN_BcHyQKaNdHNEQOlpcw, bound to: springCloudBus
+2020-12-14 15:32:35.712  INFO [user-ws,,,] 12376 --- [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'springCloudBus.anonymous.IRN_BcHyQKaNdHNEQOlpcw.errors' has 1 subscriber(s).
+2020-12-14 15:32:35.712  INFO [user-ws,,,] 12376 --- [restartedMain] o.s.c.stream.binder.BinderErrorChannel   : Channel 'springCloudBus.anonymous.IRN_BcHyQKaNdHNEQOlpcw.errors' has 2 subscriber(s).
+2020-12-14 15:32:35.763  INFO [user-ws,,,] 12376 --- [restartedMain] o.s.i.a.i.AmqpInboundChannelAdapter      : started bean 'inbound.springCloudBus.anonymous.IRN_BcHyQKaNdHNEQOlpcw'
+2020-12-14 15:32:35.806  INFO [user-ws,,,] 12376 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 60000 (http) with context path ''
+2020-12-14 15:32:35.807  INFO [user-ws,,,] 12376 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 60000
+2020-12-14 15:32:35.816  INFO [user-ws,,,] 12376 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2020-12-14 15:32:35.892  INFO [user-ws,,,] 12376 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2020-12-14 15:32:36.002  INFO [user-ws,,,] 12376 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2020-12-14 15:32:36.003  INFO [user-ws,,,] 12376 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2020-12-14 15:32:36.190  INFO [user-ws,,,] 12376 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2020-12-14 15:32:36.190  INFO [user-ws,,,] 12376 --- [restartedMain] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2020-12-14 15:32:36.885  INFO [user-ws,,,] 12376 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 15:32:36.935  INFO [user-ws,,,] 12376 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2020-12-14 15:32:36.935  INFO [user-ws,,,] 12376 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2020-12-14 15:32:36.935  INFO [user-ws,,,] 12376 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2020-12-14 15:32:36.935  INFO [user-ws,,,] 12376 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2020-12-14 15:32:36.936  INFO [user-ws,,,] 12376 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2020-12-14 15:32:36.936  INFO [user-ws,,,] 12376 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2020-12-14 15:32:36.936  INFO [user-ws,,,] 12376 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2020-12-14 15:32:37.078  INFO [user-ws,,,] 12376 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2020-12-14 15:32:37.088  INFO [user-ws,,,] 12376 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2020-12-14 15:32:37.100  INFO [user-ws,,,] 12376 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-12-14 15:32:37.117  INFO [user-ws,,,] 12376 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1607940157116 with initial instances count: 3
+2020-12-14 15:32:37.162  INFO [user-ws,,,] 12376 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application USER-WS with eureka with status UP
+2020-12-14 15:32:37.163  INFO [user-ws,,,] 12376 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1607940157163, current=UP, previous=STARTING]
+2020-12-14 15:32:37.166  INFO [user-ws,,,] 12376 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-WS/user-ws:4321b81d6d1ffbb7c3582bddb12cdace: registering service...
+2020-12-14 15:32:37.250  INFO [user-ws,,,] 12376 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_USER-WS/user-ws:4321b81d6d1ffbb7c3582bddb12cdace - registration status: 204
+2020-12-14 15:32:37.484  INFO [user-ws,,,] 12376 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-12-14 15:32:37.485  INFO [user-ws,,,] 12376 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-12-14 15:32:37.540  INFO [user-ws,,,] 12376 --- [restartedMain] o.s.i.monitor.IntegrationMBeanExporter   : Registering MessageChannel springCloudBus.anonymous.IRN_BcHyQKaNdHNEQOlpcw.errors
+2020-12-14 15:32:37.730  INFO [user-ws,,,] 12376 --- [restartedMain] c.Q.H.HrmManagementUserApplication       : Started HrmManagementUserApplication in 24.542 seconds (JVM running for 27.505)
+2020-12-14 15:32:38.452  INFO [user-ws,,,] 12376 --- [RMI TCP Connection(1)-192.168.8.100] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-14 15:32:38.452  INFO [user-ws,,,] 12376 --- [RMI TCP Connection(1)-192.168.8.100] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-14 15:32:38.457  INFO [user-ws,,,] 12376 --- [RMI TCP Connection(3)-192.168.8.100] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8012
+2020-12-14 15:32:38.488  INFO [user-ws,,,] 12376 --- [RMI TCP Connection(1)-192.168.8.100] o.s.web.servlet.DispatcherServlet        : Completed initialization in 36 ms
+2020-12-14 15:32:38.499  INFO [user-ws,,,] 12376 --- [RMI TCP Connection(3)-192.168.8.100] c.c.c.ConfigServicePropertySourceLocator : Located environment: name=user-ws, profiles=[default], label=null, version=null, state=null
+2020-12-14 15:37:36.954  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 15:42:36.956  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 15:47:36.974  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 15:52:36.976  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 15:57:36.983  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 16:02:36.960  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 16:07:36.937  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 16:12:36.913  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 16:17:36.908  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 16:22:36.898  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 16:27:36.907  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 16:32:36.904  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 16:37:36.903  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 16:42:36.892  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 16:47:36.887  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 16:52:36.876  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 16:57:36.868  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 17:02:36.870  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 17:07:36.872  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 17:12:36.872  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 17:17:36.877  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 17:22:36.886  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 17:27:36.890  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 17:32:36.893  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 17:37:36.917  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 17:42:36.924  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 17:47:36.927  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 17:52:36.934  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 17:57:36.942  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 18:02:36.952  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 18:07:36.959  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 18:12:36.968  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 18:17:36.983  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 18:22:36.991  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 18:27:37.002  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 18:32:37.014  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 18:37:37.026  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 18:42:37.041  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 18:47:37.048  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 18:52:37.052  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 18:57:37.054  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 19:02:37.060  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 19:07:37.070  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 19:12:37.071  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 19:17:37.083  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 19:22:37.097  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 19:27:37.099  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 19:32:37.102  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 19:37:37.114  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 19:42:37.116  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 19:47:37.131  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 19:52:37.146  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 19:57:37.158  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 20:02:37.171  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 20:07:37.177  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 20:46:36.906  WARN [user-ws,,,] 12376 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m8s831ms554µs700ns).
+2020-12-14 20:47:16.003  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 20:52:16.010  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 20:57:16.018  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 21:02:16.025  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 21:07:16.038  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 21:12:16.047  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 21:17:16.048  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 21:22:16.064  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 21:27:16.072  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 21:32:16.079  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 21:37:16.086  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 21:42:16.089  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 21:47:16.094  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 21:52:16.113  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 21:57:16.140  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 22:02:16.146  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2020-12-14 22:07:16.161  INFO [user-ws,,,] 12376 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
