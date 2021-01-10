@@ -1,0 +1,4 @@
+FROM openjdk:15-jdk-alpine
+VOLUME /tmp
+COPY target\classes\com\Qouro\HRMManagementAPIConfigServer/HrmManagementApiConfigServerApplication.jar ConfigServer.jar
+ENTRYPOINT ["java", "-Djava.security.egd=file:/dev/./random", "-jar", "ConfigServer.jar"]
